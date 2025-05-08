@@ -1,0 +1,18 @@
+1; "Tienda de campaña"; 7,50;
+2; "Bungalow"; 15,20;
+3; "MobileHome"; 30,00;
+4; "Cúpula/Burbuja"; 50,00;
+5; "Villa Privada pequeña"; 100,00;
+6; "Villa Privada mediana"; 120,50;
+7; "Villa Privada grande"; 140,99;
+8; "Casa en árbol"; 130,50;
+9; "Autocaravana"; 90,90;
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+1; "Senderismo al amanecer"; 30,00;
+2; "Paseo en kayak por el lago"; 25,50;
+3; "Observación de estrellas"; 12,75;
+4; "Taller de supervivencia en la naturaleza"; 35,00;
+5; "Ruta en bicicleta por el bosque"; 18,20;
+6; "Excursión a la cascada escondida"; 22,00;
+7; "Yoga al aire libre"; 10,00;

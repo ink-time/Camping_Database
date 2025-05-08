@@ -1,0 +1,7 @@
+1; "Piscina climatizada"; "Zona A - Cerca del restaurante"; "Piscina cubierta abierta todo el año"; 5,00; "dia"
+2; "Cancha de tenis"; "Zona B - Junto al parking"; "Instalación con iluminación nocturna, alquiler de raquetas disponible"; 7,50; "hora"
+3; "Gimnasio"; "Zona C - Edificio principal, 2ª planta"; "Acceso con tarjeta de cliente, abierto de 6:00 a 22:00"; 8,00; "dia"
+4; "Área de barbacoas"; "Zona D - Cerca del río"; "Zona habilitada para barbacoas con mesas y sombra natural"; 10,00; "hora"
+5; "Sala de juegos"; "Zona E - Anexo al edificio de recepción"; "Espacio para juegos de mesa, ping pong y videojuegos"; 14,50; "hora"
+6; "Spa y sauna"; "Zona F - Centro de bienestar"; "Sauna seca, baño turco y zona de relajación con aceites esenciales"; 12,00; "servicio"
+7; "Mini golf"; "Zona G - Junto al lago"; "Circuito de 9 hoyos para todas las edades"; 7,00; "hora"

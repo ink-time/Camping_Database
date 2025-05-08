@@ -1,0 +1,10 @@
+1; "Pizza margarita"; "Masa fina con salsa de tomate, mozzarella y albahaca fresca"; 8,50;
+2; "Sushi variado"; "Bandeja con 12 piezas: nigiri, maki y sashimi surtidos"; 12,00;
+3; "Ensalada César"; Lechuga romana, pollo crujiente, parmesano y salsa césar; 7,25;
+4; "Hamburguesa vegana"; "Hamburguesa de soja con aguacate, tomate y rúcula"; 9,00;
+5; "Pollo al curry"; "Pollo marinado en salsa de curry suave con arroz jazmín"; 10,75;
+6; "Tacos mixtos"; "3 tacos: uno de ternera, uno de cerdo y uno vegetariano"; 6,90;
+7; "Lasaña boloñesa"; "Pasta al horno con carne de ternera y bechamel casera"; 9,50;
+8; "Pad Thai"; "Fideos de arroz salteados con verduras, tofu y cacahuete"; 11,00;
+9; "Sopa ramen"; "Caldo de miso con fideos, huevo, alga nori y panceta"; 10,00;
+10; "Burrito de pollo"; "Tortilla de trigo rellena de pollo, arroz, frijoles y salsa"; 8,75;

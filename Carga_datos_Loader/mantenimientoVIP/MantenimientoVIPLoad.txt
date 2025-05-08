@@ -1,0 +1,8 @@
+1; "Limpieza profunda de alojamiento (incluye cambio de ropa de cama y desinfección completa)"; 45,00; "servicio";
+2; "Servicio de lavandería VIP (lavado, secado y planchado de ropa personal)"; 30,00; "servicio";
+3; "Mantenimiento técnico exprés (revisión de electrodomésticos y fontanería)"; 60,00; "servicio";
+4; "Aromatización personalizada (difusores y ambientadores premium según preferencias)"; 20,00; "dia";
+5; "Decoración especial para eventos (cumpleaños, aniversarios, etc.)"; 75,00; "evento";
+6; "Reposición diaria de amenities de lujo (toallas, productos de higiene, snacks)"; 25,00; "dia";
+7; "Revisión y limpieza de climatización (aire acondicionado/calefacción)"; 35,00; "servicio";
+8; "Servicio exclusivo de reciclaje y recogida selectiva de residuos"; 18,00; "dia";

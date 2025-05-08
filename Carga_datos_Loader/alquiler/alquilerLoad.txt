@@ -1,0 +1,6 @@
+1; Bicicleta; Descripción aleatoria 1; 14,00; "hora"
+2; Sidecar; Despripción aleatoria  2; 60,00; "hora"
+3; Goflcart; Descripción aleatoria 3; 80,00; "hora"
+4; Raquetas tenis/padel; Despripción aleatoria  4; 2,00; "hora"
+5; Canoa; Descripción aleatoria 5; 50,00; "hora"
+6; Material de Skii; Despripción aleatoria  6; 20,00; "hora"

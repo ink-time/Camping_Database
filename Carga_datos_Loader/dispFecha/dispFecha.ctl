@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE 'dispFechaLoad.txt'
+BADFILE 'errores.bad'
+INTO TABLE dispFecha
+FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '"' TRAILING NULLCOLS
+(idDispFecha, fecha DATE "DD-MM-YYYY")

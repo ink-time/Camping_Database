@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Lun May 5 11:05:30 2025
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Archivo de Control:   reserva.ctl
+Archivo de Datos:      reservaLoad.txt
+  Archivo de Errores:     errores.bad
+  Desechar Archivo:  ninguno especificado
+ 
+ (Permitir todos los registros desechados)
+
+Número a cargar: ALL
+Número que omitir: 0
+Errores permitidos: 50
+Matriz de enlace:     250 filas, máximo de 1048576 bytes
+Continuación:    ninguno especificado
+Ruta de acceso utilizada:      Convencional
+
+Tabla RESERVA, cargada de cada registro lógico.
+Opción INSERT activa para esta tabla: INSERT
+Opción TRAILING NULLCOLS activada
+
+   Nombre Columna                  Posición   Long  Term Entorno Tipo de Dato
+------------------------------ ---------- ----- ---- ---- ---------------------
+IDRESERVA                           FIRST     *   ;  O(") CHARACTER            
+DNI                                  NEXT     *   ;  O(") CHARACTER            
+IDPAGO                               NEXT     *   ;  O(") CHARACTER            
+FECHARESERVA                         NEXT     *   ;  O(") DATE DD-MM-YYYY      
+FECHAENTRADA                         NEXT     *   ;  O(") DATE DD-MM-YYYY      
+FECHASALIDA                          NEXT     *   ;  O(") DATE DD-MM-YYYY      
+
+
+Tabla RESERVA:
+  5 Filas cargadas correctamente.
+  0 Filas no cargadas debido a errores de datos.
+  0 Filas no cargadas porque todas las cláusulas WHEN han fallado.
+  0 Filas no cargadas porque todos los campos eran nulos.
+
+
+Espacio asignado a matriz de enlace:           387000 bytes (250 filas)
+Bytes de buffer de lectura: 1048576
+
+Total de registros lógicos omitidos:          0
+Total de registros lógicos leídos:           5
+Total de registros lógicos rechazados:         0
+Total de registros lógicos desechados:        0
+
+La ejecución empezó en Lun May 05 11:05:30 2025
+La ejecución terminó en Lun May 05 11:05:30 2025
+
+Tiempo transcurrido:     00:00:00.22
+Tiempo de CPU:         00:00:00.03

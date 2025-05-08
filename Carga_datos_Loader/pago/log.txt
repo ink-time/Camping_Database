@@ -1,0 +1,34 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mié May 7 12:53:38 2025
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Archivo de Control:   pago.ctl
+Archivo de Datos:      pagoLoad.txt
+  Archivo de Errores:     errores.bad
+  Desechar Archivo:  ninguno especificado
+ 
+ (Permitir todos los registros desechados)
+
+Número a cargar: ALL
+Número que omitir: 0
+Errores permitidos: 50
+Matriz de enlace:     250 filas, máximo de 1048576 bytes
+Continuación:    ninguno especificado
+Ruta de acceso utilizada:      Convencional
+
+Tabla PAGO, cargada de cada registro lógico.
+Opción INSERT activa para esta tabla: INSERT
+Opción TRAILING NULLCOLS activada
+
+   Nombre Columna                  Posición   Long  Term Entorno Tipo de Dato
+------------------------------ ---------- ----- ---- ---- ---------------------
+IDPAGO                              FIRST     *   ;  O(") CHARACTER            
+TOTAL                                NEXT     *   ;  O(") CHARACTER            
+FECHAPAGO                            NEXT     *   ;  O(") DATE DD-MM-YYYY      
+METODOPAGO                           NEXT     *   ;  O(") CHARACTER            
+ESTADOPAGO                           NEXT     *   ;  O(") CHARACTER            
+DNI                                  NEXT     *   ;  O(") CHARACTER            
+
+SQL*Loader-601: Para la opción INSERT, la tabla debe estar vacía. Error en la tabla PAGO

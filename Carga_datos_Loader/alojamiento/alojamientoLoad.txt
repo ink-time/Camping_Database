@@ -1,0 +1,5 @@
+1; 2; "Bosque Encantado, Sector Norte"; "Cerca del río, incluye linterna"; 1; 25,50; "dia"
+2; 4; "Colina del Sol, Zona B"; "Vista panorámica, terraza incluida"; 5; 130,00; "dia"
+3; 6; "Lago Azul, Sector C"; "Acceso directo al lago"; 6; 165,99; "dia"
+4; 3; "Sendero Silvestre, Sector E"; "Ideal para parejas, con jacuzzi"; 4; 50,00; "dia"
+5; 2; "Árbol Central, Plataforma Alta"; "Incluye desayuno, cama doble"; 8; 150,99; "dia"

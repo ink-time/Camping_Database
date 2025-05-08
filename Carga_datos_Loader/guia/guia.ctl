@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE 'guiaLoad.txt'
+BADFILE 'errores.bad'
+INTO TABLE guia
+FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '"' TRAILING NULLCOLS
+(idGuia, nombreGuia)

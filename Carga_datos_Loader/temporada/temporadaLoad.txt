@@ -1,0 +1,2 @@
+1; "01-Jun al 31-Ago"; 0,30; "Temporada Alta";
+2; "01-Ene al 31-May y 01-Sep al 31-Dic"; -0,15; "Temporada Baja";
