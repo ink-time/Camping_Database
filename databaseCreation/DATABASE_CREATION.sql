@@ -102,7 +102,7 @@ CREATE TABLE dispAlojamiento (
     idAlojamiento NUMBER (11) NOT NULL,
     idDispFecha NUMBER (11) NOT NULL,
     disponibilidad VARCHAR2 (20) NOT NULL, -- Possible types: disponible, no disponible.
-    -- tipoDisponibilidad VARCHAR2 (50),   -- It could also havce a new column thats specifies:  mantenimiento, limpieza, reformas, etc. 
+    -- tipoDisponibilidad VARCHAR2 (50),   -- It could also have a new column thats specifies:  mantenimiento, limpieza, reformas, etc. 
                                            -- This would be interesting if I wanna be more specific about the reason of the disponibility being negative
     dispRazon VARCHAR (30),
     constraint pk_dispAlojamiento PRIMARY KEY (idAlojamiento, idDispFecha),
