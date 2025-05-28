@@ -1,0 +1,54 @@
+ cliente(P·dni, nombre, apellido1, N·apellido2, email, telefono, N·comentarios) 
+
+ pago(P·idPago, total, fechaPago, metodoPago, estadoPago, F·dni → cliente) 
+
+ reserva(PF·dni → cliente, PF·idPago → pago, P·idReserva, fechaReserva, fechaEntrada, fechaSalida) 
+
+ factura(P·idFactura, emisor, fechaFacturacion, D·importeBase, D·importesAdicionales, impuesto, importeTotal, direccion, F·dni → cliente, F·idReserva →reserva, F·idPago → pago)
+
+ temporada(P·idTemporada, duracion, cambioPrecio, nomTemporada)  
+
+x temporadaReserva(PF·idTemporada → temporada, PF·idReserva → reserva, dni?-------) 
+
+ tipoAlojamiento (P·idTipo, tipo, precioBase) 
+
+ alojamiento(P·idAlojamiento, capacidad, ubicacion, especifAdicionales, F·idTipo →  tipoAlojamiento, precio, tipoPrecio) 
+
+ alojamientoReserva (PF·idAlojamiento → alojamiento, PF·idReserva → reserva, PF·dni → reserva) 
+
+ dispFecha(P·idDispFecha, fecha) 
+
+ dispAlojamiento(PF·idAlojamiento → alojamiento, PF·idDispF → dispFecha, disponibilidad) 
+
+ acompagnante(P·dniAcompagnante, dni, nombre, edad, F·idReserva → reserva) 
+
+ guia (P·idGuia, nombreGuia) 
+
+ actividadGuiada(P·idActividad, descripcion, precio) 
+
+ actividadGuiadaReserva(PF·idReserva → reserva, PF·idActividad → actividadGuiada, P·fechaInicio, P·horaInicio, fechaFinal, horaFinal, F·idGuia → guia)
+
+ instalacion( P·idInstalacion, tipoInstalalacion, localizacion, descripcion, precio, tipoPrecio) 
+
+ instalacionReserva(PF·idReserva → reserva, PF·dni → reserva, PF·idInstalacion → instalacion, P·fechaInicio, P·horaInicio, fechaFinal, horaFinal, precio)
+
+ alquiler(P·idAlquiler, tipoAlquiler, descripcion, precio, tipoPrecio) 
+
+ alquilerReserva(PF·idReserva → reserva, PF·dni → reserva, PF·idAlquiler → alquiler, P·fechaInicio, P·horaInicio, fechaFinal, horaFinal, cantidad, precio)
+
+ comidaDomicilio(P·idComidaDomicilio, productoEnvio, descripcion, precio)
+ 
+ comidaDomReserva(PF·idReserva → reserva, PF·dni → reserva, PF·idComidaDom → comidaDomicilio, P·fechaInicio, P·horaEntrega, fechaFinal, frecuenciaEnvio, cantidad, precio)
+
+ mantenimientoVIP(P·idMantenimVIP, descripcion, precio, tipoPrecio)
+
+ mantenimVIPReserva(PF·idReserva → reserva, PF·dni → reserva, PF·idMantenimVIP → mantenimientoVIP, P·fechaInicio, P·hora, fechaFinal, frecuencia, precio)
+
+ usuario(P·idUsuario, U·email, nombreUsuario)
+
+ rating(P·idRating, D·mediaValoraciones, F·idAlojamiento → alojamiento)
+
+ valoracion(P·idValoracion, F·idUsuario, valoracion, N·textOpinion, fecha, F·idRating → rating)
+
+ favorito(P·idFavorito, nombreFavorito, F·idUsuario → usuario, F·idAlojamiento → alojamiento)
+
